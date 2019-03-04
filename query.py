@@ -10,7 +10,7 @@ def main():
 
 @main.command()
 @click.option("--albumid", prompt="Album (1-50)", help="Choose a photo album from 1-50.")
-def hello(albumid):
+def albumid(albumid):
 
     # check = type(albumid)   # user input valid?
     # if not check.isdigit():  # is not currently functioning, would be nice to have
